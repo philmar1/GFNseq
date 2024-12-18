@@ -40,7 +40,7 @@ class TBModel(nn.Module):
         self.mlp = nn.Sequential(
             nn.Linear(SEQ_LEN, num_hid),  # SEQ_LEN input features.
             nn.LeakyReLU(),
-            nn.Linear(num_hid, SEQ_LEN*2),  # SEQ_LEN*2 outputs: SEQ_LEN for P_F and SEQ_LEN for P_B. /!\ There is flow of information from PF to PB and vice versa
+            nn.Linear(num_hid, VOCAB_SIZE*2),  # VOCAB_SIZE*2 outputs: VOCAB_SIZE for P_F and VOCAB_SIZE for P_B. /!\ There is flow of information from PF to PB and vice versa
         )
         self.logZ = nn.Parameter(torch.ones(1))  # log Z is just a single number.
 
@@ -53,8 +53,8 @@ class TBModel(nn.Module):
     def forward(self, x):
         logits = self.mlp(x)
         # Slice the logits into forward and backward policies.
-        P_F = logits[..., :SEQ_LEN]
-        P_B = logits[..., SEQ_LEN:]
+        P_F = logits[..., :VOCAB_SIZE]
+        P_B = logits[..., VOCAB_SIZE:]
 
         return P_F, P_B
 

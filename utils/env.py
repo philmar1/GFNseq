@@ -22,7 +22,7 @@ class Env():
     def calculate_backward_mask_from_state(self, state):
         """Here, we mask backward actions to only select parent nodes."""
         return torch.Tensor(
-            [i == state[-1] for i in range(SEQ_LEN)]
+            [i == state[-1] for i in range(VOCAB_SIZE)]
         ).bool()
     
     def get_reward(self, state):
