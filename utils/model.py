@@ -123,9 +123,10 @@ class TB_GFN(GFN):
         return state
     
     def sample(self, n_samples):
+        """Sample sequence of character"""
         states = []
         for _ in range(n_samples):
-            states.append(self.make_trajectory(SEQ_LEN))
+            states.append([IDX_TO_CHAR[x] for x in self.make_trajectory(SEQ_LEN)])
         return states
     
     def train(self, opt, n_episodes):
