@@ -1,0 +1,116 @@
+SEED: 7592806299827202945
+
+Tree Structure:
+
+└── ACA
+    ├── AAA
+    │   ├── ATCATC
+    │   │   ├── ACTCATTC
+    │   │   │   ├── AAACTCCAATTGACC
+    │   │   │   └── ACTCCTTATCA
+    │   │   │       ├── ACTCCTTATCA
+    │   │   │       │   ├── AACCTCCTATCA
+    │   │   │       │   └── AGCCTCCTTATCA
+    │   │   │       │       ├── AGCCTCCCTTATCA
+    │   │   │       │       └── AGCCTCCTTAGTCA
+    │   │   │       └── ACTCCTTCATCAA
+    │   │   │           ├── ACTCCTTCATCAGA
+    │   │   │           │   ├── ACCTCCTTCATCAGA
+    │   │   │           │   └── ACTCCTTCAACAGA
+    │   │   │           └── ACTCCTTCATCCAA
+    │   │   │               ├── CCTCCTTCATCCAA
+    │   │   │               └── CTCCTTCATCCAA
+    │   │   └── GCATGCTGAACAT
+    │   │       ├── GCATGCTGGAACAT
+    │   │       └── GTCATGCTGAACAT
+    │   └── CAATAA
+    │       ├── CAATAAA
+    │       │   ├── CAAATAAAT
+    │       │   │   ├── ACAAATGTAACAT
+    │       │   │   │   ├── ACAAATAGTAACAG
+    │       │   │   │   └── ACATAATGTAACATA
+    │       │   │   └── ACTATAAA
+    │       │   └── CCTAAATCAGAAGC
+    │       └── CAATTATA
+    │           ├── CCAATTTGTA
+    │           │   ├── CCAAGTTTGTTA
+    │           │   └── CCAATTTGTAA
+    │           │       ├── CCAATTTGTAAT
+    │           │       └── CCAATTTTGTAA
+    │           └── CTTGATTTAATA
+    │               ├── CTCGTATTTAATA
+    │               └── TTGATTTAAA
+    └── AACAT
+        ├── AACAA
+        │   ├── AACAAC
+        │   │   ├── AACTACAC
+        │   │   │   ├── AACCTACAC
+        │   │   │   │   ├── AAACTTACAC
+        │   │   │   │   └── AACCCACAC
+        │   │   │   │       ├── AACCCAACAC
+        │   │   │   │       └── AACCCAACAC
+        │   │   │   └── TGAACTACACC
+        │   │   └── CATAATCACGAC
+        │   └── GAACGCAAC
+        │       ├── GAACGCTTAA
+        │       │   ├── GAACGCTTAGA
+        │       │   └── GAGACGCTTAA
+        │       └── GGAACGCAAC
+        │           ├── GCGGAACGCAA
+        │           └── GGCAACGCACAC
+        │               ├── GGCAACGCACACA
+        │               └── GGCAACGCCACAC
+        └── AACCAATA
+            ├── AACCAATA
+            │   ├── AAACCACGATA
+            │   │   ├── AAACCACGATTA
+            │   │   │   ├── AACCACGATTC
+            │   │   │   │   ├── AACCACGAGTC
+            │   │   │   │   └── AACCACGATTTC
+            │   │   │   └── GAAACCACGATTA
+            │   │   └── AACCACGAATA
+            │   │       ├── AACCCACGGAATA
+            │   │       └── AATCAGCGAATA
+            │   └── GAAACCTCGCCAATA
+            └── ACCGCATTATA
+                ├── AACCGCATTATA
+                └── ACCGCATATATA
+
+Final Sequences:
+CCTAAATCAGAAGC
+ACTATAAA
+ACATAATGTAACATA
+ACAAATAGTAACAG
+TTGATTTAAA
+CTCGTATTTAATA
+CCAATTTTGTAA
+CCAATTTGTAAT
+CCAAGTTTGTTA
+AACCTCCTATCA
+AGCCTCCCTTATCA
+AGCCTCCTTAGTCA
+ACTCCTTCAACAGA
+ACCTCCTTCATCAGA
+CCTCCTTCATCCAA
+CTCCTTCATCCAA
+AAACTCCAATTGACC
+GTCATGCTGAACAT
+GCATGCTGGAACAT
+TGAACTACACC
+AACCCAACAC
+AACCCAACAC
+AAACTTACAC
+CATAATCACGAC
+GAACGCTTAGA
+GAGACGCTTAA
+GCGGAACGCAA
+GGCAACGCCACAC
+GGCAACGCACACA
+ACCGCATATATA
+AACCGCATTATA
+GAAACCTCGCCAATA
+AACCCACGGAATA
+AATCAGCGAATA
+AACCACGAGTC
+AACCACGATTTC
+GAAACCACGATTA

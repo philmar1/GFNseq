@@ -1,0 +1,11 @@
+SEED: -8439522264278101543
+
+Tree Structure:
+
+└── ATGGTC
+    ├── ATGTAGTGCC
+    └── CAGTTAGGTCGA
+
+Final Sequences:
+ATGTAGTGCC
+CAGTTAGGTCGA

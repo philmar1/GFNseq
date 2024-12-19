@@ -1,0 +1,134 @@
+SEED: -7135184746424295961
+
+Tree Structure:
+
+└── TACG
+    ├── TACGT
+    │   ├── AGTTC
+    │   │   ├── AGTTCC
+    │   │   └── ATTC
+    │   └── TACG
+    │       ├── GTACGC
+    │       │   ├── CGTTGAGACGTCG
+    │       │   │   ├── ACGTGAGACGTCG
+    │       │   │   │   ├── ACGTAGACGTTCG
+    │       │   │   │   │   ├── ACGTAGATGTTCG
+    │       │   │   │   │   └── ACGTCAGACGTTCG
+    │       │   │   │   └── ACGTGGAGACGTCAT
+    │       │   │   └── CGTTTAGAACGTCG
+    │       │   │       ├── CGGTTTAGAACGTCG
+    │       │   │       │   ├── CGGTTTAGAACCGTCG
+    │       │   │       │   └── CGGTTTAGAACGTCTG
+    │       │   │       └── CGTTTAGAATACGTCG
+    │       │   └── GGGCGGTCA
+    │       │       ├── GGAGCGGCAGTCA
+    │       │       │   ├── GGAGCGGCAGTC
+    │       │       │   └── GGAGCGGCGAGTCA
+    │       │       └── GGGCGGTACATTGA
+    │       └── TACCG
+    │           ├── CTACCAG
+    │           │   ├── CCACAG
+    │           │   │   ├── CCCACGG
+    │           │   │   └── CCTACACGA
+    │           │   └── TCTTAGCCG
+    │           └── TAACGCCG
+    │               ├── TTATCACACCG
+    │               │   ├── TGTATCACACCG
+    │               │   │   ├── TGTATCACCACCG
+    │               │   │   └── TGTATCATCACCG
+    │               │   └── TTATACAGCCG
+    │               └── TTCACCAGCTAG
+    │                   ├── TTCAGCCAGCTAAG
+    │                   └── TTCCACCAGCTTAG
+    └── TGAGCC
+        ├── GATGCAGCC
+        │   ├── ACCGGATGCGCCCC
+        │   └── GGAATTGATGTCACGCC
+        │       ├── GGAATTGGATGTCACGCC
+        │       └── GGATTGATGTCACGCC
+        └── TTGAGCC
+            ├── TGAAGTC
+            │   ├── TGAAAGTAC
+            │   │   ├── CGTGAAAGAC
+            │   │   │   ├── ACGTGAAAGACA
+            │   │   │   │   ├── ACGTGAACAGCCA
+            │   │   │   │   └── ACGTTGCAAAGACA
+            │   │   │   └── CCTGAGGAAGACC
+            │   │   └── TGAAGTAAT
+            │   │       ├── CTGGAAGTAATT
+            │   │       └── TTGGAAGTAAT
+            │   └── TGAAGTTCA
+            │       ├── GTGCAATGTTCAC
+            │       │   ├── GTGAATGTTCACA
+            │       │   └── GTGCAAATAGTTCAC
+            │       └── TGAAGTCA
+            │           ├── TGAATAAT
+            │           │   ├── TGGAATAAT
+            │           │   │   ├── TGGACATAAT
+            │           │   │   └── TTGGAATAAT
+            │           │   └── TGTATAAT
+            │           │       ├── GTGTATAAT
+            │           │       └── TGATAAT
+            │           └── TGAGTCA
+            │               ├── GTGATGCGTCA
+            │               └── TTGAAATCA
+            └── TTGGAGCCC
+                ├── TTGGCCCAT
+                │   ├── CGGTTTGGCCCGAT
+                │   └── TACGGCGCAT
+                └── TTTGGAGCCCGT
+                    ├── TTTGATAGCCCCGT
+                    │   ├── TTTGATACCCCGTG
+                    │   └── TTTGATGGCCCCTGT
+                    └── TTTGGCAGCCCGTC
+                        ├── TTATGGCAGCCCGTC
+                        └── TTTGGCTGCCCGTC
+                            ├── TTTGGCTGCCGCGTC
+                            │   ├── TGTTGGCTGCCGCGTC
+                            │   └── TTTTGGCTGCCGCGTC
+                            └── TTTGGCTGCTCCTGTC
+
+Final Sequences:
+CGTTTAGAATACGTCG
+CGGTTTAGAACCGTCG
+CGGTTTAGAACGTCTG
+ACGTGGAGACGTCAT
+ACGTCAGACGTTCG
+ACGTAGATGTTCG
+GGGCGGTACATTGA
+GGAGCGGCGAGTCA
+GGAGCGGCAGTC
+TTCCACCAGCTTAG
+TTCAGCCAGCTAAG
+TGTATCACCACCG
+TGTATCATCACCG
+TTATACAGCCG
+TCTTAGCCG
+CCCACGG
+CCTACACGA
+AGTTCC
+ATTC
+GTGCAAATAGTTCAC
+GTGAATGTTCACA
+GTGATGCGTCA
+TTGAAATCA
+TGGACATAAT
+TTGGAATAAT
+GTGTATAAT
+TGATAAT
+ACGTTGCAAAGACA
+ACGTGAACAGCCA
+CCTGAGGAAGACC
+TTGGAAGTAAT
+CTGGAAGTAATT
+CGGTTTGGCCCGAT
+TACGGCGCAT
+TTTGATGGCCCCTGT
+TTTGATACCCCGTG
+TTTGGCTGCTCCTGTC
+TGTTGGCTGCCGCGTC
+TTTTGGCTGCCGCGTC
+TTATGGCAGCCCGTC
+ACCGGATGCGCCCC
+GGAATTGGATGTCACGCC
+GGATTGATGTCACGCC
