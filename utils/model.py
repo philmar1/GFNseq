@@ -16,6 +16,7 @@ from tqdm import tqdm, trange
     
 # --- Models as backbone of the gflownets
 class FlowModel(nn.Module):
+    """Simple MLP that can be used with detailed balance loss"""
     def __init__(self, num_hid, name='flowmodel'):
         super().__init__()
         self.mlp = nn.Sequential(
@@ -33,8 +34,16 @@ class FlowModel(nn.Module):
     def forward(self, x):
         return self.mlp(x).exp()  # Flows must be positive, so we take the exponential.
 
+    def get_action(self, policy):
+        # Here policy is probs (edge_flow_preds / edge_flow_preds.sum())
+        categorical = Categorical(probs=policy)
+        action = categorical.sample()
+        
+        return action
+
 
 class TBModel(nn.Module):
+    """Simple MLP that can be used with trajectory balance loss"""
     def __init__(self, num_hid, name='TBmodel'):
         super().__init__()
         self.mlp = nn.Sequential(
@@ -68,7 +77,11 @@ class TBModel(nn.Module):
 # --- Gflonwets model
 
 class GFN(ABC):
-    """Base GFN class"""
+    """Base GFN class. Used as a parent class 
+    Args:
+        model (nn.Module): backbone model for the GFN
+        env (Env): environment to use
+    """
     def __init__(self, model, env) -> None:
         self.model = model
         self.env = env 
