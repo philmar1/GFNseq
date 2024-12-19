@@ -7,7 +7,7 @@ from typing import Optional, Literal
 
 from configs.config import *
 from utils.utils import * 
-from utils.losses import * 
+from utils.loss import * 
 
 import numpy as np 
 
